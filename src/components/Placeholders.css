@@ -1,0 +1,36 @@
+.placeholder-box {
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.placeholder-box h3 {
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+}
+
+.placeholder-box .date {
+  display: block;
+  color: var(--accent);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.placeholder-box p,
+.placeholder-box ul {
+  color: var(--text-secondary);
+}
+
+.placeholder-box ul {
+  margin-top: 0.5rem;
+  padding-left: 1.5rem;
+}
+
+.placeholder-box li {
+  margin-bottom: 0.5rem;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}

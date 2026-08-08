@@ -1,0 +1,43 @@
+.hire-me-page {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.resume-download {
+  text-align: center;
+  padding: 4rem 2rem;
+  border-radius: 16px;
+}
+
+.resume-download h2 {
+  font-size: 2rem;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.resume-download p {
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.download-btn {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--bg-primary);
+  background: var(--accent);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(45, 212, 191, 0.4);
+}
+
+.download-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(45, 212, 191, 0.6);
+  background: var(--text-primary);
+  color: var(--bg-primary);
+}

@@ -4,6 +4,15 @@
   gap: 4rem;
 }
 
+@media (max-width: 768px) {
+  .hire-me-page {
+    gap: 2.5rem;
+  }
+  .resume-download {
+    padding: 2.5rem 1.5rem;
+  }
+}
+
 .resume-download {
   text-align: center;
   padding: 4rem 2rem;

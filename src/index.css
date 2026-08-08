@@ -116,3 +116,10 @@ section {
   display: inline-block;
   align-self: flex-start;
 }
+
+@media (max-width: 768px) {
+  .container {
+    gap: 2.5rem;
+    padding: 1.5rem;
+  }
+}

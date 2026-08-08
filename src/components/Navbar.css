@@ -25,12 +25,20 @@
   background: linear-gradient(to right, var(--text-primary), var(--accent));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  transition: font-size 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  display: inline-block;
+  transform: scale(1);
+  transform-origin: left center;
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .navbar-logo.large-logo {
-  font-size: 3rem;
-  line-height: 1.2;
+  transform: scale(2);
+}
+
+@media (max-width: 768px) {
+  .navbar-logo.large-logo {
+    transform: scale(1.4);
+  }
 }
 
 .navbar-links {
